@@ -14,6 +14,10 @@ console.log('Casual Number: ' , casualNumber)
 
 
 // INPUT
+// Welcome Message
+alert(`Benvenuto in "The Insicure Password!
+Clicca "ok" o premi "invio" per continuare`);
+
 // Name Request
 const userName = prompt('Qual è il tuo nome?');
 console.log('Name: ' , userName)
