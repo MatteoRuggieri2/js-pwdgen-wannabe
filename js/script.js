@@ -27,6 +27,12 @@ const color = prompt('Qual è il tuo colore preferito?');
 console.log('Color: ' , color)
 
 // LOGIC
+// Create Password
+// const password = userName + userSurname + color + casualNumber;
+// console.log('New Password: ' , password)
 
+const password = `${userName}${userSurname}${color}${casualNumber}`
+console.log('New Password: ' , password)
 
 // OUTPUT
+document.getElementById('new-password').innerHTML = password;
